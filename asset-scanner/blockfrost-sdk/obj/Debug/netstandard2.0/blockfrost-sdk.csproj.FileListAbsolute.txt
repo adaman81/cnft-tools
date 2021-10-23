@@ -1,0 +1,8 @@
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\netstandard2.0\blockfrost-sdk.AssemblyInfoInputs.cache
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\netstandard2.0\blockfrost-sdk.AssemblyInfo.cs
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\netstandard2.0\blockfrost-sdk.csproj.CoreCompileInputs.cache
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\bin\Debug\netstandard2.0\blockfrost-sdk.deps.json
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\bin\Debug\netstandard2.0\blockfrost-sdk.dll
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\bin\Debug\netstandard2.0\blockfrost-sdk.pdb
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\netstandard2.0\blockfrost-sdk.dll
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\netstandard2.0\blockfrost-sdk.pdb

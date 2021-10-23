@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\blockfrost-sdk.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\blockfrost-sdk.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\blockfrost-sdk.csproj",
+        "projectName": "blockfrost-sdk",
+        "projectPath": "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\blockfrost-sdk.csproj",
+        "projectJsonPath": "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\project.json",
+        "packagesPath": "C:\\Users\\buysroja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\buysroja\\source\\repos\\cnft-tools\\asset-scanner\\blockfrost-sdk\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\buysroja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dgontwikkeling/auth/e73c977c-f059-479e-9847-fe155d7daa5c/api/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "FubarCoder.RestSharp.Portable.Core": "[4.0.7, )",
+        "FubarCoder.RestSharp.Portable.HttpClient": "[4.0.7, )",
+        "JsonSubTypes": "[1.2.0, )",
+        "Microsoft.NETCore.Portable.Compatibility": "[1.0.1, )",
+        "NETStandard.Library": "[1.6.0, )",
+        "Newtonsoft.Json": "[10.0.3, )"
+      },
+      "frameworks": {
+        "netstandard2.0": {}
+      }
+    }
+  }
+}

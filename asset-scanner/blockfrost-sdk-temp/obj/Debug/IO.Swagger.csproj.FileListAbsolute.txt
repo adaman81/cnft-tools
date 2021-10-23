@@ -1,0 +1,6 @@
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\IO.Swagger.csprojAssemblyReference.cache
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\IO.Swagger.csproj.CoreCompileInputs.cache
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\bin\Debug\IO.Swagger.dll
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\bin\Debug\IO.Swagger.pdb
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\IO.Swagger.dll
+C:\Users\buysroja\source\repos\cnft-tools\asset-scanner\blockfrost-sdk\obj\Debug\IO.Swagger.pdb
