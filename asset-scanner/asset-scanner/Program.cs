@@ -15,6 +15,16 @@ namespace asset_scanner
 
         static async Task Main(string[] args)
         {
+            // Phase 1 - Gather static data
+
+            // Step 1: store all assets of a policy in a local data store (LiteDB)
+            // Step 2: lookup rarity -> cnft.tools -> update data store with rarity
+
+            // Phase 2 - Gather price data
+
+            // Step 1: for specific selection of assets (eg. with rarity rank between X and Y) lookup SALE and SOLD data
+            // Step 2: nicely put this on the screen
+
             Console.WriteLine("Setup");
 
             var apiKey = new Dictionary<string, string>();
