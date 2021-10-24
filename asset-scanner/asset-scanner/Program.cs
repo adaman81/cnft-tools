@@ -68,6 +68,8 @@ namespace asset_scanner
                 var assetDetails = await GetAsset(asset);
                 assetsWithDetails.Add(assetDetails);
 
+                Console.WriteLine($"Asset details completed for {assetsWithDetails.Count} items");
+
                 await Task.Delay(150);
             }
 
@@ -84,7 +86,7 @@ namespace asset_scanner
 
         private static async Task StoreAssetsInDatabase(List<Asset> assets)
         {
-            using (var db = new LiteDatabase("assets.db"))
+            using (var db = new LiteDatabase("..\\..\\..\\data\\assets.db"))
             {
                 // Get a collection (or create, if doesn't exist)
                 var col = db.GetCollection<Asset>("assets");
@@ -116,7 +118,9 @@ namespace asset_scanner
                     break;
                 }
 
-                assets.AddRange(pagedAssets);                
+                assets.AddRange(pagedAssets);
+
+                Console.WriteLine($"Completed page {page} - local asset count is {assets.Count}");
 
                 page++;
             };
