@@ -18,6 +18,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using SwaggerDateConverter = blockfrost.Client.SwaggerDateConverter;
+using System.Dynamic;
 
 namespace blockfrost.Model
 {
@@ -178,7 +179,7 @@ namespace blockfrost.Model
         /// Gets or Sets OnchainMetadata
         /// </summary>
         [DataMember(Name="onchain_metadata", EmitDefaultValue=false)]
-        public dynamic OnchainMetadata { get; set; }
+        public ExpandoObject OnchainMetadata { get; set; }
 
         /// <summary>
         /// Gets or Sets Metadata

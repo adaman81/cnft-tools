@@ -23,7 +23,10 @@ namespace asset_scanner
 
             // Step 1: store all assets of a policy in a local data store (LiteDB)
             // Download disabled - only needed first time for new assets
-            //await DownloadAssets(policyId);
+            await DownloadAssets(policyId);
+            
+            // Example of querying onchainmetadata in LiteDB.Studio
+            // SELECT $.OnchainMetadata[@.Key = "name"].Value FROM assets
 
             // Step 2: lookup rarity -> cnft.tools -> update data store with rarity
 
@@ -113,7 +116,7 @@ namespace asset_scanner
                     break;
                 }
 
-                assets.AddRange(pagedAssets);
+                assets.AddRange(pagedAssets);                
 
                 page++;
             };
